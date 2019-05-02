@@ -5,15 +5,16 @@
   justify-content: space-around;
 }
 
+.mnc {
+  margin: auto;
+}
+
 /* header image */
 #headImg {
   width: 5em;
   height: 5em;
+  margin-left: 2em;
   border-radius: 50%;
-}
-
-.mnc {
-  margin: auto;
 }
 
 /* main container */
@@ -84,5 +85,9 @@
 
   .box {
     width: 40%;
+  }
+
+  #headImg{
+    margin-left: 7em;
   }
 }
