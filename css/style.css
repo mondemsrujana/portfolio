@@ -12,6 +12,10 @@
   border-radius: 50%;
 }
 
+.mnc {
+  margin: auto;
+}
+
 /* main container */
 .main {
   width: 100%;
