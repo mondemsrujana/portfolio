@@ -5,12 +5,14 @@
   justify-content: space-around;
 }
 
+/* header image */
 #headImg {
   width: 5em;
   height: 5em;
   border-radius: 50%;
 }
 
+/* main container */
 .main {
   width: 100%;
   display: flex;
@@ -18,6 +20,7 @@
   justify-content: space-around;
 }
 
+/* cards view */
 .box {
   width: 24%;
   margin-top: 1%;
@@ -26,10 +29,12 @@
   text-align: center;
 }
 
+/* cards image */
 #boxImg {
   width: 95%;
 }
 
+/* paragraph */
 .company {
   text-align: left;
   padding: 5px;
@@ -43,6 +48,7 @@
   background-color: #58FA82;
 }
 
+/* media for moblie view */
 @media (min-device-width:320px) and (max-device-width:480px) {
   * {
     font-size: 1em;
@@ -63,14 +69,16 @@
   .foot {
     width: 100%;
   }
+}
 
-  @media (min-device-width:481px) and (max-device-width:780px) {
-    .main {
-      width: 100%;
-      flex-wrap: wrap;
-    }
-
-    .box {
-      width: 40%;
-    }
+/* media for tab view */
+@media (min-device-width:481px) and (max-device-width:780px) {
+  .main {
+    width: 100%;
+    flex-wrap: wrap;
   }
+
+  .box {
+    width: 40%;
+  }
+}
