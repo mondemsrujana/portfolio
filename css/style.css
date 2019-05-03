@@ -10,7 +10,7 @@
 }
 
 /* header image */
-#headImg {
+.headImg {
   width: 5em;
   height: 5em;
   margin-left: 2em;
@@ -35,7 +35,7 @@
 }
 
 /* cards image */
-#boxImg {
+.boxImg {
   width: 95%;
 }
 
@@ -87,7 +87,7 @@
     width: 40%;
   }
 
-  #headImg{
+  .headImg{
     margin-left: 7em;
   }
 }
